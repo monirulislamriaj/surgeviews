@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="446" viewBox="0 0 1920 446">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="1920" height="446" rx="10" fill="#2a3346"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.473" y1="0.546" x2="0.491" y2="0.406" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1a79ff"/>
+      <stop offset="1" stop-color="#0023ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_33" data-name="Group 33" clip-path="url(#clip-path)">
+    <g id="Group_13_Copy_3" data-name="Group 13 Copy 3" transform="translate(1920 -70)">
+      <path id="Fill_1" data-name="Fill 1" d="M0,0V591.245q-93.118-30.756-237.759,0C-382.4,622.005-473.76,465.017-708,465.017s-181.281,201-428,201c-114.32,0-206.736,24.253-354.082,112.348q-147.351,88.1-429.919-85.706V0Z" fill="url(#linear-gradient)"/>
+      <path id="Fill_4" data-name="Fill 4" d="M0,0V664.245q-93.118-30.756-237.759,0C-382.4,695.005-473.76,538.017-708,538.017s-181.281,201-428,201c-114.32,0-206.736,24.253-354.082,112.348q-147.351,88.1-429.919-85.706V0Z" fill="#01b6d8"/>
+      <path id="Fill_7" data-name="Fill 7" d="M0,0V602.656q-312,193.857-466.722,97.166c-154.719-96.688,10.3-87.143-493.279-258.73-337.6-115.034-297.122,85.089-774.4,98.314-107.612,2.983-185.6-.081-185.6-.081V0Z" fill="#00e2d5"/>
+      <path id="Fill_10" data-name="Fill 10" d="M0,0V382.427q-93.118-16.926-237.759,0c-144.642,16.92-269.761,77.616-504,77.616S-1077.28,365.5-1324,365.5q-246.714,0-596,150.5V0Z" fill="#4e67ff"/>
+    </g>
+  </g>
+</svg>

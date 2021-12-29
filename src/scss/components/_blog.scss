@@ -1,0 +1,282 @@
+.blog {
+  &-header {
+    padding: 200px 0;
+    background: url(../images/backgrounds/blog-bg.svg);
+    background-size: cover;
+    background-position: bottom center;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    @include tablet {
+      padding: 130px 0 300px;
+    }
+
+    h1 {
+      color: $white;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+  &-post {
+    padding: 100px 0 50px;
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #e0fff4;
+      margin-bottom: 30px;
+      @include tablet {
+        flex-direction: column;
+      }
+      &:last-child {
+        margin-bottom: 0;
+        @include desktop {
+          margin-bottom: 50px;
+        }
+      }
+      &-thumb {
+        width: 35%;
+        @include tablet {
+          width: 100%;
+        }
+        img {
+          max-width: 100%;
+          @include tablet {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    &-content {
+      padding-left: 20px;
+      width: 60%;
+      @include tablet {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+      }
+      h2 {
+        line-height: 21px;
+        margin-bottom: 20px;
+        a {
+          font-size: 21px;
+          font-weight: 700;
+          color: $text-color;
+          text-decoration: none;
+        }
+      }
+      p {
+        margin-bottom: 30px;
+      }
+    }
+    &-widget {
+      padding: 30px;
+      background-color: $white;
+      margin-bottom: 30px;
+      h2 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid $border-color;
+        @include tablet {
+          font-size: 20px;
+        }
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          list-style: none;
+          margin-bottom: 10px;
+          a {
+            color: $text-color;
+            font-size: 18px;
+            line-height: 26px;
+            display: block;
+            padding: 20px 0;
+            text-decoration: none;
+            border-bottom: 1px solid $border-color;
+            transition: all 0.3s ease-in-out;
+            @include tablet {
+              font-size: 17px;
+            }
+            &:hover {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+      &-wraper {
+        position: sticky;
+        top: 80px;
+      }
+    }
+  }
+  &-single {
+    &-post {
+      padding: 33px 50px;
+      background-color: $white;
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 30px;
+      }
+      ul {
+        margin: 0 0 40px;
+        padding: 0 0 0 20px;
+        li {
+          list-style: none;
+          font-size: 20px;
+          line-height: 34px;
+          margin-bottom: 5px;
+          position: relative;
+          font-weight: 700;
+          color: $black;
+          @include tablet {
+            font-size: 12px;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: $primary-color;
+            border-radius: 50px;
+            top: 0;
+            left: 0;
+            transform: translate(-20px, 11px);
+          }
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+        display: block;
+        margin-bottom: 20px;
+        @include tablet {
+          font-size: 14px;
+        }
+        a {
+          color: $primary-color;
+          text-decoration: underline;
+        }
+      }
+      .media-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 60px 0;
+        @include desktop {
+          display: block;
+        }
+        .media {
+          width: 48%;
+          @include desktop {
+            width: 100%;
+            margin-bottom: 30px;
+          }
+          img {
+            max-width: 100%;
+          }
+        }
+        .content {
+          width: 48%;
+          @include desktop {
+            width: 100%;
+          }
+          h4 {
+            font-weight: 600;
+            font-size: 19px;
+            line-height: 33px;
+            margin-bottom: 20px;
+            @include desktop-lg {
+              font-size: 16px;
+              line-height: 30px;
+            }
+            @include mobile {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      h4 {
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 33px;
+        margin-bottom: 20px;
+        @include tablet {
+          font-size: 16px;
+        }
+        @include mobile-xs {
+          font-size: 14px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}
+.similar-post {
+  padding: 100px 0;
+  .section-title {
+    margin-bottom: 35px;
+    h2 {
+      text-align: left;
+      font-size: 30px;
+    }
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    @include tablet {
+      flex-direction: column;
+    }
+    &-thumb {
+      width: 40%;
+      @include tablet {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        @include tablet {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &-content {
+    padding-left: 30px;
+    width: 55%;
+    margin-left: -10px;
+    background-color: #e0fff4;
+    @include tablet {
+      text-align: center;
+      width: 100%;
+      padding-left: 0;
+    }
+    h2 {
+      line-height: 21px;
+      margin-bottom: 10px;
+      a {
+        font-size: 18px;
+        font-weight: 500;
+        color: $black;
+        text-decoration: none;
+        display: block;
+      }
+    }
+    p {
+      margin-bottom: 10px;
+      font-size: 15px;
+      list-style: 25px;
+    }
+  }
+}

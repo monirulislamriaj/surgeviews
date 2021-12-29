@@ -1,0 +1,223 @@
+.pricing {
+  padding: 100px 0 50px;
+  @include desktop {
+    margin-bottom: 80px;
+  }
+  @include tablet {
+    overflow: hidden;
+    padding-bottom: 80px;
+  }
+  &-tabs {
+    text-align: center;
+    position: relative;
+    .nav {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 60px;
+      &-tabs {
+        border-bottom: 0;
+        margin: 0 auto 35px;
+        padding: 5px;
+        display: inline-flex;
+        justify-content: center;
+        background: $primary-color;
+        border-radius: 50px;
+        overflow: hidden;
+        @include mobile {
+          flex-wrap: nowrap;
+          width: auto;
+        }
+      }
+      &-item {
+        margin-bottom: 0;
+      }
+      &-link {
+        border: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        padding: 16px 60px;
+        background: $primary-color;
+        color: $white;
+        text-transform: uppercase;
+        min-width: 210px;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        @include mobile {
+          min-width: 140px;
+          padding: 15px 30px;
+        }
+      }
+    }
+
+    .tabs-slider {
+      margin-top: 30px;
+      @include mobile {
+        width: 80%;
+        margin: 0 auto;
+      }
+      .slick-list {
+        padding: 0 3px;
+        @include tablet {
+          overflow: visible;
+        }
+      }
+      .slider-items {
+        background: url(../images/backgrounds/pricing-bg.svg);
+        background-size: cover;
+        background-position: bottom center;
+        margin: 0 5px 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        outline: 0;
+        &.slick-active {
+          box-shadow: 0px 5px 25px rgba(10, 12, 15, 0.05);
+        }
+        .slider-item-header {
+          text-align: center;
+          position: relative;
+          overflow: hidden;
+          z-index: 1;
+          &.Fast {
+            padding: 30px 20px;
+          }
+          &.automatic {
+            padding: 30px 20px;
+          }
+          span {
+            padding-left: 5px;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 41px;
+            color: $primary-color;
+            font-style: italic;
+            text-transform: uppercase;
+          }
+          .per-post {
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 700;
+            margin-bottom: 0;
+            color: $white;
+            font-style: italic;
+            text-transform: uppercase;
+          }
+          span.price {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            color: $white;
+            font-style: italic;
+          }
+        }
+        .slider-item-content {
+          text-align: center;
+          padding: 70px 10px 40px;
+          ul {
+            padding: 0;
+            margin: 0 0 20px;
+            li {
+              list-style: none;
+              display: block;
+              line-height: 32px;
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+    button {
+      border-radius: none;
+      border: 2px solid $primary-color;
+    }
+    .slick-arrow {
+      transition: 0.3s ease;
+    }
+    .slick-prev {
+      left: 45%;
+      bottom: 0;
+      @include desktop-lg {
+        left: -30px;
+      }
+      @include desktop {
+        left: 50%;
+        bottom: 0;
+        top: unset;
+        transform: translate(-60px, 70px);
+      }
+    }
+    .slick-next {
+      right: 44%;
+      bottom: 0;
+      @include desktop-lg {
+        right: -30px;
+      }
+      @include desktop {
+        right: 50%;
+        bottom: 0;
+        top: unset;
+        transform: translate(60px, 70px);
+      }
+    }
+    .slick-next:before {
+      font-family: unset;
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-width: 2px 2px 0 0;
+      border-color: $primary-color;
+      border-style: solid;
+      top: 50%;
+      left: 50%;
+      transform: translate(-75%, -50%) rotate(45deg);
+    }
+    .slick-prev:before {
+      font-family: unset;
+      position: absolute;
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-width: 2px 2px 0 0;
+      border-color: $primary-color;
+      border-style: solid;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-135deg);
+    }
+
+    .slick-prev,
+    .slick-next {
+      width: 55px;
+      height: 55px;
+      z-index: 99;
+      top: 110%;
+      background-color: #f2f4ff;
+      border: none;
+      border-radius: 10px;
+      &:hover {
+        background-color: $primary-color;
+        &::before {
+          border-color: $white !important;
+        }
+      }
+    }
+
+    .slick-prev:before {
+      color: $white;
+    }
+    .slick-next:before {
+      color: $white;
+    }
+  }
+  .pricing-tabs .nav-tabs .nav-item.show .nav-link,
+  .pricing-tabs .nav-tabs .nav-link.active {
+    color: $text-color;
+    background-color: $white;
+    border: none;
+    border-radius: 50px;
+  }
+}

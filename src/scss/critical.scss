@@ -1,0 +1,44 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Surgeview HTML
+VERSION:	1.0.0
+-------------------------------------------------------------------*/
+
+@import "plugins/bootstrap";
+
+@import "plugins/aos";
+
+@import "variables";
+
+@import "typography";
+
+@import "mixins";
+
+@import "buttons";
+
+@import "common";
+
+@import "components/navigation";
+
+@import "components/hero";
+
+@import "components/services";
+
+@import "components/feature";
+
+@import "components/review";
+
+@import "components/cta";
+
+@import "components/pricing";
+
+@import "components/faq";
+
+@import "components/blog";
+
+@import "components/contact";
+
+@import "components/checkout";
+
+@import "components/footer";

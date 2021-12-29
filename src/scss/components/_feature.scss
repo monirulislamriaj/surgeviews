@@ -1,0 +1,40 @@
+.feature {
+  &-images {
+    img {
+      max-width: 100%;
+    }
+  }
+  &-content {
+    span {
+      display: block;
+      font-size: 11px;
+      letter-spacing: 10px;
+      color: $primary-color;
+      font-weight: 700;
+      margin-bottom: 22px;
+      line-height: 26px;
+    }
+    h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+      line-height: 53px;
+      color: $black;
+    }
+    p {
+      margin-bottom: 65px;
+      line-height: 30px;
+    }
+  }
+  &.genuine-views,
+  &.auto-subscribers,
+  &.genuine-likes {
+    padding-top: 500px;
+    background: url(../images/backgrounds/feature-bg.svg);
+    background-size: cover;
+    background-position: top center;
+  }
+  &.genuine-views,
+  &.subscribers {
+    padding-bottom: 100px;
+  }
+}

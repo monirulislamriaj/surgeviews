@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="652" viewBox="0 0 1920 652">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="1920" height="652" rx="10" transform="translate(0 -652)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_13" data-name="Group 13" transform="translate(0 652)">
+    <rect id="Rectangle-2" data-name="Rectangle" width="1920" height="652" rx="10" transform="translate(0 -652)" fill="none"/>
+    <g id="Group_13-2" data-name="Group 13" clip-path="url(#clip-path)">
+      <g id="Group_13_Copy_3" data-name="Group 13 Copy 3">
+        <path id="Fill_4" data-name="Fill 4" d="M0,0V-515.69q93.118,19.058,237.759,0c144.642-19.06,236,78.216,470.242,78.216s181.281-124.549,428-124.549c114.32,0,206.736-15.028,354.082-69.615Q1637.431-686.226,1920-578.531V0Z" transform="translate(0 -2)" fill="#01b6d8"/>
+        <path id="Fill_7" data-name="Fill 7" d="M0,0V-569.488q312-120.67,466.722-60.483c154.719,60.185-10.3,54.243,493.279,161.051,337.6,71.6,297.122-52.965,774.4-61.2,107.612-1.857,185.6.051,185.6.051V0Z" transform="translate(0 -2)" fill="#00e2d5"/>
+        <path id="Fill_10" data-name="Fill 10" d="M0,0V-443.427q93.118,16.926,237.759,0c144.642-16.92,269.761-77.616,504-77.616S1077.28-426.5,1324-426.5q246.714,0,596-150.5V0Z" fill="#4e67ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

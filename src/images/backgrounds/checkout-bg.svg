@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921" height="788" viewBox="0 0 1921 788">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.006" y1="0.958" x2="0.741" y2="0.365" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_13_Copy_3" data-name="Group 13 Copy 3" transform="translate(0 0)">
+    <path id="Fill_4" data-name="Fill 4" d="M0,0V571.245q93.118-30.756,237.759,0C382.4,602.005,473.76,445.017,708,445.017s181.281,201,428,201c114.32,0,206.736,24.253,354.082,112.348q147.351,88.1,429.919-85.706V0Z" transform="translate(1)" fill="#01b6d8"/>
+    <path id="Fill_7" data-name="Fill 7" d="M0,0V582.656q312,193.857,466.722,97.166c154.719-96.688-10.3-87.143,493.279-258.73,337.6-115.034,297.122,85.089,774.4,98.314,107.612,2.983,185.6-.081,185.6-.081V0Z" transform="translate(1)" fill="#00e2d5"/>
+    <path id="Fill_10" data-name="Fill 10" d="M0,0V442.427q93.118-16.926,237.759,0c144.642,16.92,269.761,77.616,504,77.616S1077.28,425.5,1324,425.5q246.714,0,596,150.5V0Z" transform="translate(1)" fill="#4e67ff"/>
+    <path id="Fill_4-2" data-name="Fill 4" d="M0,0V345c166.053-127.266,203.533-48.371,286.478-76.387,115.19-38.908,73.019-55.163,170.541-111.486s131.17,5.18,233.885-54.142C738.5,75.5,782.8,63.374,865.316,64.623,920.326,65.455,970.415,93.535,1021,0Z" opacity="0.153" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+.btn {
+  min-width: 145px;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 18px 30px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 30px;
+  &-white {
+    color: $primary-color;
+    background: $white;
+  }
+  &-primary {
+    color: $white;
+    background: $primary-color;
+  }
+}
+.btn-platform {
+  background-color: $primary-color;
+  color: $white;
+  display: flex;
+  padding: 15px 40px;
+  border: none;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+
+  @include desktop-lg {
+    padding: 15px 30px;
+  }
+
+  @include mobile-xs {
+    margin-bottom: 15px;
+    padding: 10px 30px;
+  }
+
+  svg {
+    transition: all 0.3s ease-in-out;
+    path {
+      fill: $white;
+    }
+  }
+
+  &:hover {
+    color: $white;
+    text-decoration: none;
+    background-color: $primary-color;
+    border-color: $primary-color;
+
+    svg {
+      fill: $white;
+    }
+  }
+}

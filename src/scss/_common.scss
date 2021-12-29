@@ -1,0 +1,171 @@
+body {
+  background: $body-color;
+}
+
+.section-title {
+  margin-bottom: 65px;
+  text-align: center;
+  @include tablet {
+    margin-bottom: 40px;
+  }
+  h2 {
+    line-height: 60px;
+    margin-bottom: 5px;
+    @include tablet {
+      font-size: 35px;
+      text-align: center;
+    }
+    @include mobile {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+  p {
+    width: 80%;
+    margin: 0 auto;
+    @include tablet {
+      width: 100%;
+    }
+  }
+  &-white {
+    h2,
+    p {
+      color: $white;
+    }
+  }
+  &-primary {
+    h2 {
+      color: $white;
+    }
+    p {
+      color: $white;
+    }
+  }
+}
+.privacy-policy,
+.tems-conditions {
+  margin-bottom: 90px;
+  &-hader {
+    padding: 180px 0 250px;
+    background: url(../images/backgrounds/privacy-policy-bg.svg);
+    background-size: cover;
+    background-position: bottom center;
+    h1 {
+      color: $white;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 50px;
+      text-align: left;
+      @include tablet {
+        font-size: 30px;
+      }
+      @include mobile-xs {
+        font-size: 22px;
+      }
+    }
+  }
+  &-content {
+    padding: 50px;
+    @include desktop {
+      padding: 30px;
+    }
+  }
+  &-item {
+    margin-bottom: 40px;
+    h2 {
+      margin-bottom: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    p {
+      margin-bottom: 20px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 26px;
+      color: $text-color;
+    }
+  }
+}
+.form-control {
+  border-radius: 30px;
+  padding: 15px 20px;
+}
+label {
+  color: $black;
+}
+.form-control:focus {
+  border-color: $primary-color;
+  box-shadow: none;
+}
+@keyframes up-down-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes up-down-rev-animation {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes up-down2-animation {
+  0% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes left-right-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+@keyframes right-left-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes scale-animation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate-animation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes opacity-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,47 @@
+.faq {
+  background: url(../images/backgrounds/faq-bg.svg);
+  background-size: cover;
+  background-position: top center;
+  @include desktop {
+    padding: 50px 0 0;
+  }
+  &-item {
+    background: url(../images/backgrounds/faq.svg);
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 40px;
+    border-radius: 20px;
+  }
+  &-title {
+    padding: 30px 20px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    @include desktop {
+      padding: 20px 15px;
+    }
+    @include mobile {
+      padding: 15px;
+    }
+    h2 {
+      font-size: 25px;
+      line-height: 40px;
+      color: $white;
+      margin-bottom: 0;
+      @include mobile {
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+  }
+  &-content {
+    padding: 45px 30px 20px;
+    text-align: center;
+    @include desktop {
+      padding: 55px 30px 20px;
+    }
+  }
+}
